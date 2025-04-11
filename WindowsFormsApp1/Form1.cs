@@ -13,6 +13,7 @@ namespace ColorChangerForm
         public Form1()
         {
             InitializeComponent();
+            this.KeyPreview = true;
 
             // 10 farklı rengi tanımlıyoruz
             renkListesi = new List<Color>
